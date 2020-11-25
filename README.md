@@ -7,4 +7,4 @@ Here is why transfer learning is what one should consider before building a bran
 
 In this short tutorial, I provided two different ways to implement transfer learning in transfer_learning_2_methods.py: The first method is very primitive using direct propagation, passing the image data into the first layer and passing its output to the next layer, and so much so until the last layer;The second method would look much elegant than the first method by creating a pipeline. It starts by creating a Sequential model, then adds an Input layer, then a VGG16 base model, and custom layers to the model sequentially.
 
-In the folder dog_vs_cat, you find the example of adapting VGG16 into a binary classifier with a fully connected layer or a global average pooling layer; similar in the dog_cat_horse_human, you will find the example of adapting VGG16 into 4 classes classifier. 
+In the folder dog_vs_cat, you can find the example of adapting VGG16 into a binary classifier with a fully connected layer or a global average pooling layer; similar in the dog_cat_horse_human, you can find the example of adapting VGG16 into 4 classes classifier. 
